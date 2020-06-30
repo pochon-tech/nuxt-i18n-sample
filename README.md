@@ -1,6 +1,6 @@
 # nuxt-i18n-test
 
-> My fine Nuxt.js project
+> nuxt.config.jsに直接翻訳オブジェクトを定義、Store変数、ComponentData変数、直接文字列の翻訳変換が試せるか確認
 
 ## Build Setup
 
