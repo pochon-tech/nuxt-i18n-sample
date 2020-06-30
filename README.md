@@ -5,6 +5,10 @@
 ## Build Setup
 
 ``` bash
+# chose yarn , ui none, spa mode
+npx create-nuxt-app nuxt-i18n-test
+yarn add nuxt-i18n
+
 # install dependencies
 $ yarn install
 
