@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "lib": [
+        "esnext",
+        "esnext.asynciterable",
+        "dom"
+      ],
+      "esModuleInterop": true,
+      "experimentalDecorators": true,
+      "strictFunctionTypes": false,
+      "importHelpers": true,
+      "declaration": true,
+      "sourceMap": true,
+      "strict": false,
+      "noEmit": true,
+      "baseUrl": ".",
+      "paths": {
+        "@/*": [ "./*" ]
+      },
+      "types": [
+        "@types/node"
+      ],
+      "outDir": "dist",
+      "rootDir": "."
+    },
+    "include": [
+      "src"
+    ],
+    "exclude": [
+      "node_modules/**/*"
+    ]
+  }
+  

@@ -24,3 +24,7 @@ $ yarn run generate
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+
+cd dev/i18nGenerator/
+yarn
+yarn dev from-csv -f /dev/i18nGenerator/raw.csv -o /dev/i18nGenerator/raw.js
